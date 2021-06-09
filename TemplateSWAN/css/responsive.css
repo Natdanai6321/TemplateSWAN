@@ -3,55 +3,33 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.logo{
+    width: 280px;
+}
+
 
 @media only screen and (min-width: 320px) {
     /* 5SE */
-    .logo {
-        width: 190%;
-    }
     .bg-swan {
         background-size: 310%;
         background-position-x: 65%;
     }
 }
 
-@media only screen and (min-width: 360px) {
-    /* GalaxyS5 */
-    .logo {
-        width: 165%;
-    }
-}
+
 
 @media only screen and (min-width: 375px) {
     /* X */
-    .logo {
-        width: 160%;
-    }
     .bg-swan {
         background-size: 400%;
         background-position-x: 60%;
     }
 }
 
-@media only screen and (min-width: 411px) {
-    /* Pixel 2 */
-    .logo {
-        width: 142%;
-    }
-}
-
-@media only screen and (min-width: 414px) {
-    /* Iphon678 */
-    .logo {
-        width: 140%;
-    }
-}
 
 @media only screen and (min-width: 768px) {
     /* ipad  */
-    .logo {
-        width: 83%;
-    }
+
     .bg-swan {
         background-size: 250%;
         background-position-x: 70%;
@@ -60,29 +38,32 @@
 
 @media only screen and (min-width: 1024px) {
     /* ipad pro */
-    .logo {
-        width: 68%;
-    }
+
     .bg-swan {
         background-size: 250%;
         background-position-x: 70%;
     }
 }
 
-@media only screen and (min-width: 1025px) {
-    /* laptop ยังไม่ได้ทำไม่รุ้ขนาด */
-    .bg-swan {
-        background-size: 80%;
-        background-position-x: 70%;
-    }
-}
 
 @media only screen and (min-width: 1025px) {
-    /* desktop */
-    .logo {
-        width: 50%;
-    }
+    /* laptop */
+
     .bg-swan {
         background-size: 100%;
     }
 }
+
+@media only screen and (min-width: 1537px) {
+    /* desktop */
+
+    .bg-swan {
+        background-size: 100%;
+    }
+}
+
+
+
+
+
+
